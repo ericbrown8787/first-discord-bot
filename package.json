@@ -1,0 +1,31 @@
+{
+  "name": "first-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericbrown8787/first-discord-bot.git"
+  },
+  "keywords": [],
+  "author": "Eric Brown <eric.brown8787@gmail.com> (https://github.com/ericbrown8787)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericbrown8787/first-discord-bot/issues"
+  },
+  "homepage": "https://github.com/ericbrown8787/first-discord-bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.15.0",
+    "@discordjs/rest": "^0.5.0",
+    "discord-api-types": "^0.33.4",
+    "discord.js": "^13.8.0",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
